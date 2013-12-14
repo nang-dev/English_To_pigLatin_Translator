@@ -5,7 +5,6 @@ if str(original) > 0 and original.isalpha():
     original = original.lower()
     word = original
     new_word = word + pyg
-    print(word)
     if first == "u" or first == "i" or first == "e" or first == "a" or first == "o":
         print(new_word)
     else:
